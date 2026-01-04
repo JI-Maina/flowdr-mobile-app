@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flowdr',
       theme: AppTheme.lightTheme,
-      initialRoute: '/register',
+      initialRoute: '/home',
       getPages: AppPages.route,
     );
   }

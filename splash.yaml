@@ -1,25 +1,25 @@
 flutter_native_splash:
-  # Light theme - Purple background matching app theme
-  color: "#F5F3FF" # primaryLightest - Light purple background
+  # Light theme - White background for better logo contrast
+  color: "#FFFFFF" # White background - ensures logo visibility
 
   # Dark theme - Dark purple background
   color_dark: "#1F1B2E" # Dark purple variant
 
-  # Use just the circular icon for splash screen (cleaner, faster)
-  image: assets/logo/flowdr-icon.png
-  image_dark: assets/logo/flowdr-icon.png
+  # Use full logo for splash screen (better visibility than icon)
+  image: assets/logo/flowdr-logo.png
+  image_dark: assets/logo/flowdr-logo.png
 
   #! ANDROID 12+ configuration:
   android_12:
     # background color
-    color: "#F5F3FF" # Light purple
+    color: "#FFFFFF" # White for better contrast
     color_dark: "#1F1B2E" # Dark purple
 
-    # Use circular icon for Android 12+ splash
-    image: assets/logo/flowdr-icon.png
-    image_dark: assets/logo/flowdr-icon.png
+    # Use full logo for Android 12+ splash
+    image: assets/logo/flowdr-logo.png
+    image_dark: assets/logo/flowdr-logo.png
 
-    # center-logo background color (optional - can match or contrast)
-    icon_background_color: "#7C3AED" # Primary purple
+    # Optional: Add a subtle background circle behind logo
+    # icon_background_color: "#F5F3FF" # Light purple circle (optional)
 
   web: false
